@@ -14,8 +14,9 @@ Flat UI Colors
 }
 
 html {
-    background: url("HubbleNebulaRed.jpg") no-repeat center center fixed;
-    background-size: cover;
+    /*background: url("HubbleNebulaRed.jpg") no-repeat center center fixed;
+    background-size: cover;*/
+    background: url("escheresque_ste_@2X.png")
 }
 
 body {
@@ -58,4 +59,9 @@ h2,
 p {
     text-align: left;
     padding: 24px 48px;
+}
+
+.emphasis {
+    font-weight: 900;
+    color: #ecf0f1;
 }
