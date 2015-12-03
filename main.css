@@ -13,10 +13,16 @@ Flat UI Colors
     padding: 0;
 }
 
+::selection {
+    color: #ecf0f1;
+    background-color: #f1c40f;
+}
+
 html {
     /*background: url("HubbleNebulaRed.jpg") no-repeat center center fixed;
     background-size: cover;*/
-    background: url("escheresque_ste_@2X.png")
+    background: url("escheresque_ste_@2X.png");
+    background-attachment: fixed;
 }
 
 body {
@@ -33,7 +39,11 @@ body {
 }
 
 .text {
-    background-color: rgba(19, 15, 14, 0.8);
+    background-color: rgba(19, 15, 14, 0.6);
+}
+
+.text,
+.ico-mail2 {
     transition-duration: 0.8s;
 }
 
@@ -61,7 +71,10 @@ p {
     padding: 24px 48px;
 }
 
-.emphasis {
-    font-weight: 900;
-    color: #ecf0f1;
+.social {
+    padding: 64px;
+}
+
+.ico-mail2:hover {
+    color: #f1c40f;
 }
