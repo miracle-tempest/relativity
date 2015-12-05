@@ -14,21 +14,27 @@ Flat UI Colors
 }
 
 ::selection {
-    color: #ecf0f1;
-    background-color: #f1c40f;
+    background-color: #999;
 }
 
-html {
-    /*background: url("HubbleNebulaRed.jpg") no-repeat center center fixed;
-    background-size: cover;*/
-    background: url("escheresque_ste_@2X.png");
-    background-attachment: fixed;
+#bg {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: url(escheresque_ste_@2X.png);
+}
+
+#content {
+    position: absolute;
+    z-index: 1;
 }
 
 body {
+    height: 100%;
     color: #ecf0f1;
     font-family: 'Lato', sans-serif;
     text-align: center;
+    background: #313131;
 }
 
 .title,
@@ -40,6 +46,7 @@ body {
 
 .text {
     background-color: rgba(19, 15, 14, 0.6);
+    border-radius: 10px;
 }
 
 .text,
@@ -51,8 +58,13 @@ body {
     background-color: rgba(19, 15, 14, 1);
 }
 
+.title {
+    color: #3498db;
+    padding: 0px !important;
+}
+
 h1 {
-    font-size: 80px;
+    font-size: 140px;
     font-weight: 100;
 }
 
@@ -76,5 +88,9 @@ p {
 }
 
 .ico-mail2:hover {
-    color: #f1c40f;
+    color: #3498db;
+}
+
+a {
+    color: inherit;
 }
