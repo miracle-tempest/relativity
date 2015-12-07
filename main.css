@@ -126,3 +126,8 @@ button {
 button:hover {
     color: #3498db;
 }
+
+.emphasis {
+    font-weight: 900;
+    color: #ecf0f1;
+}
