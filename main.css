@@ -3,8 +3,7 @@ Flat UI Colors
 #ecf0f1;
 #aaa;
 #130f0e;
-#2ecc71;
-#f1c40f;
+#3498db;
 */
 
 
@@ -34,10 +33,17 @@ Flat UI Colors
 
 body {
     height: 100%;
-    color: #ecf0f1;
     font-family: 'Lato', sans-serif;
     background: #313131;
 }
+
+body,
+.emphasis {
+    color: #ecf0f1;
+}
+
+
+/*Title*/
 
 .title,
 .foo {
@@ -51,21 +57,18 @@ body {
     padding: 48px;
 }
 
+
+/*Content*/
+
 .text {
     background-color: rgba(19, 15, 14, 0.6);
     border-radius: 10px;
 }
 
 .text,
-.ico-mail2,
 .ico-gh,
-.ico-user,
 button {
     transition-duration: 0.8s;
-}
-
-.highlight {
-    background-color: rgba(19, 15, 14, 1);
 }
 
 .title {
@@ -129,5 +132,8 @@ button:hover {
 
 .emphasis {
     font-weight: 900;
-    color: #ecf0f1;
+}
+
+.highlight {
+    background-color: rgba(19, 15, 14, 1);
 }
