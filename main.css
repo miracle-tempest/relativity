@@ -102,16 +102,8 @@ button {
     display: inline;
 }
 
-.ico-mail2:hover {
-    color: #9b59b6;
-}
-
 .ico-gh:hover {
     color: #4183c4;
-}
-
-.ico-user:hover {
-    color: #2ecc71;
 }
 
 .ico-lightbulb {
