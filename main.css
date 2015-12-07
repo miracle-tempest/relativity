@@ -46,7 +46,8 @@ body,
 /*Title*/
 
 .title,
-.foo {
+.foo,
+.eq {
     text-align: center;
 }
 
@@ -76,9 +77,13 @@ button {
     padding: 0px !important;
 }
 
+h1,
+.eq {
+    font-weight: 100;
+}
+
 h1 {
     font-size: 140px;
-    font-weight: 100;
 }
 
 h2,
@@ -136,4 +141,8 @@ button:hover {
 
 .highlight {
     background-color: rgba(19, 15, 14, 1);
+}
+
+.eq {
+    font-size: 52px;
 }
