@@ -36,8 +36,12 @@ body {
     height: 100%;
     color: #ecf0f1;
     font-family: 'Lato', sans-serif;
-    text-align: center;
     background: #313131;
+}
+
+.title,
+.foo {
+    text-align: center;
 }
 
 .title,
@@ -118,9 +122,6 @@ a {
 
 .ex {
     display: none;
-    padding-left: 120px;
-    padding-right: 120px;
-    text-align: center;
 }
 
 button {
