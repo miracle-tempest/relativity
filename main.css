@@ -54,6 +54,7 @@ body {
 
 .text,
 .ico-mail2,
+.ico-gh,
 button {
     transition-duration: 0.8s;
 }
@@ -91,10 +92,15 @@ button {
 
 .social {
     padding: 64px;
+    display: inline;
 }
 
 .ico-mail2:hover {
     color: #3498db;
+}
+
+.ico-gh:hover {
+    color: #4183c4;
 }
 
 a {
