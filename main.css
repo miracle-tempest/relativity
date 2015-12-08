@@ -147,3 +147,8 @@ button:hover {
 .eq {
     font-size: 52px;
 }
+
+img {
+    display: block;
+    margin: auto;
+}
