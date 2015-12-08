@@ -47,7 +47,8 @@ body,
 
 .title,
 .foo,
-.eq {
+.eq,
+.nav {
     text-align: center;
 }
 
