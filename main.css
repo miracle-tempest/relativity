@@ -166,5 +166,5 @@ button {
 }
 
 .box {
-    height: 100%;
+    vertical-align: middle;
 }
