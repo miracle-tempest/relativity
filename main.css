@@ -160,7 +160,11 @@ button {
     margin: 24px;
 }
 
-.test {
+.item h2,
+.box {
     text-align: center;
+}
+
+.box {
     height: 100%;
 }
