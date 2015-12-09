@@ -95,8 +95,7 @@ button {
 }
 
 .title,
-button:hover,
-.item:hover {
+button:hover {
     color: #3498db
 }
 
@@ -172,4 +171,8 @@ button {
 
 .box i {
     font-size: 148px;
+}
+
+.item:hover {
+    color: #3498db;
 }
