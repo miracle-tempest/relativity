@@ -165,23 +165,25 @@ button {
 
 /*Colors*/
 
+
+/*Magic*/
+
 .overview:hover,
-.overview-content button:hover {
+button.ov-cont:hover {
     color: #3498db;
 }
 
-.equations:hover {
-    color: #9b59b6;
+.equations:hover,
+button.eq-cont:hover {
+    color: #e74c3c;
 }
 
-.practice:hover {
-    color: #f1c40f;
+.practice:hover,
+button.prac-cont:hover {
+    color: #e67e22;
 }
 
-.resources:hover {
+.resources:hover,
+button.res-cont:hover {
     color: #2ecc71;
-}
-
-button:hover {
-    color: #3498db;
 }
