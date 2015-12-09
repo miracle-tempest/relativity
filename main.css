@@ -95,7 +95,8 @@ button {
 }
 
 .title,
-button:hover {
+button:hover,
+.item:hover {
     color: #3498db
 }
 
@@ -167,4 +168,8 @@ button {
 
 .box {
     vertical-align: middle;
+}
+
+.box i {
+    font-size: 148px;
 }
