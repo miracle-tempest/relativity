@@ -7,12 +7,6 @@ Flat UI Colors
 */
 
 
-/*.emphasis {
-    font-weight: 900;
-    color: #ecf0f1;
-} */
-
-
 /*General*/
 
 * {
@@ -94,11 +88,6 @@ button {
     padding: 0px !important;
 }
 
-.title,
-button:hover {
-    color: #3498db
-}
-
 h1,
 .eq {
     font-weight: 100;
@@ -152,7 +141,7 @@ button {
 }
 
 
-/*MAGIC*/
+/*Home*/
 
 .item {
     width: 30%;
@@ -170,9 +159,29 @@ button {
 }
 
 .box i {
-    font-size: 148px;
+    font-size: 120px;
 }
 
-.item:hover {
+
+/*Colors*/
+
+.overview:hover,
+.overview-content button:hover {
+    color: #3498db;
+}
+
+.equations:hover {
+    color: #9b59b6;
+}
+
+.practice:hover {
+    color: #f1c40f;
+}
+
+.resources:hover {
+    color: #2ecc71;
+}
+
+button:hover {
     color: #3498db;
 }
