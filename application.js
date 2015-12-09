@@ -15,4 +15,5 @@ $(document).ready(function () {
     $('.hidden').on('click', 'button', function () {
         $(this).closest('.hidden').find('p').slideToggle();
     })
+
 });
