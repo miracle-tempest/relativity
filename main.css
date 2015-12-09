@@ -7,6 +7,12 @@ Flat UI Colors
 */
 
 
+/*.emphasis {
+    font-weight: 900;
+    color: #ecf0f1;
+} */
+
+
 /*General*/
 
 * {
@@ -31,6 +37,19 @@ Flat UI Colors
     z-index: 1;
 }
 
+a {
+    color: inherit;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+button {
+    background-color: rgba(19, 15, 14, 0);
+}
+
 body {
     height: 100%;
     font-family: 'Lato', sans-serif;
@@ -38,12 +57,10 @@ body {
 }
 
 body,
-.emphasis {
+h2,
+button {
     color: #ecf0f1;
 }
-
-
-/*Title*/
 
 .title,
 .foo,
@@ -74,8 +91,12 @@ button {
 }
 
 .title {
-    color: #3498db;
     padding: 0px !important;
+}
+
+.title,
+button:hover {
+    color: #3498db
 }
 
 h1,
@@ -90,7 +111,6 @@ h1 {
 h2,
 button {
     font-size: 24px;
-    color: #ecf0f1;
     font-weight: 400;
 }
 
@@ -119,36 +139,14 @@ button {
     font-size: inherit;
 }
 
-a {
-    color: inherit;
+.highlight {
+    background-color: rgba(19, 15, 14, 1);
 }
 
 .ex {
     display: none;
 }
 
-button {
-    background-color: rgba(19, 15, 14, 0);
-    font-size: 24px;
-}
-
-button:hover {
-    color: #3498db;
-}
-
-.emphasis {
-    font-weight: 900;
-}
-
-.highlight {
-    background-color: rgba(19, 15, 14, 1);
-}
-
 .eq {
     font-size: 52px;
-}
-
-img {
-    display: block;
-    margin: auto;
 }
