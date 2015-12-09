@@ -6,9 +6,6 @@ Flat UI Colors
 #3498db;
 */
 
-
-/*General*/
-
 * {
     border: 0;
     margin: 0;
@@ -50,16 +47,12 @@ body {
     background: #313131;
 }
 
-body,
-h2,
-button {
-    color: #ecf0f1;
-}
-
 .title,
 .foo,
 .eq,
-.nav {
+.home,
+.item h2,
+.box {
     text-align: center;
 }
 
@@ -70,16 +63,13 @@ button {
     padding: 48px;
 }
 
-
-/*Content*/
-
 .text {
     background-color: rgba(19, 15, 14, 0.6);
     border-radius: 10px;
 }
 
 .text,
-.ico-gh,
+i,
 button {
     transition-duration: 0.8s;
 }
@@ -120,38 +110,27 @@ button {
     display: inline;
 }
 
-.ico-gh:hover {
-    color: #4183c4;
-}
-
 .ico-lightbulb {
     font-size: inherit;
-}
-
-.highlight {
-    background-color: rgba(19, 15, 14, 1);
 }
 
 .ex {
     display: none;
 }
 
-.eq {
+.eq,
+.home {
     font-size: 52px;
 }
-
-
-/*Home*/
 
 .item {
     width: 30%;
     display: inline-block;
-    margin: 24px;
 }
 
-.item h2,
-.box {
-    text-align: center;
+.item,
+.home {
+    margin: 24px;
 }
 
 .box {
@@ -165,25 +144,40 @@ button {
 
 /*Colors*/
 
-
-/*Magic*/
-
 .overview:hover,
-button.ov-cont:hover {
+button.ov-cont:hover,
+#ov-home:hover {
     color: #3498db;
 }
 
 .equations:hover,
-button.eq-cont:hover {
-    color: #e74c3c;
+button.eq-cont:hover,
+#eq-home:hover {
+    color: #9b59b6;
 }
 
 .practice:hover,
-button.prac-cont:hover {
+button.prac-cont:hover,
+#prac-home:hover {
     color: #e67e22;
 }
 
 .resources:hover,
-button.res-cont:hover {
+button.res-cont:hover,
+#res-home:hover {
     color: #2ecc71;
+}
+
+.ico-gh:hover {
+    color: #4183c4;
+}
+
+.highlight {
+    background-color: rgba(19, 15, 14, 1);
+}
+
+body,
+h2,
+button {
+    color: #ecf0f1;
 }
