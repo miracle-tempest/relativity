@@ -30,6 +30,7 @@ Flat UI Colors
 
 a {
     color: inherit;
+    text-decoration: none;
 }
 
 img {
