@@ -53,7 +53,8 @@ body {
 .eq,
 .home,
 .item h2,
-.box {
+.box,
+.eqex {
     text-align: center;
 }
 
@@ -181,4 +182,8 @@ body,
 h2,
 button {
     color: #ecf0f1;
+}
+
+.overline {
+    text-decoration: overline;
 }
