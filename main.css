@@ -3,7 +3,6 @@ Flat UI Colors
 #ecf0f1;
 #aaa;
 #130f0e;
-#3498db;
 */
 
 * {
@@ -13,6 +12,22 @@ Flat UI Colors
 }
 
 ::selection {
+    background-color: #999;
+}
+
+::-moz-selection {
+    background-color: #999;
+}
+
+::-o-selection {
+    background-color: #999;
+}
+
+::-ms-slection {
+    background-color: #999;
+}
+
+::-webkit-selection {
     background-color: #999;
 }
 
@@ -33,11 +48,6 @@ a {
     text-decoration: none;
 }
 
-img {
-    display: block;
-    margin: auto;
-}
-
 button {
     background-color: rgba(19, 15, 14, 0);
 }
@@ -49,12 +59,11 @@ body {
 }
 
 .title,
-.foo,
-.eq,
-.home,
-.item h2,
 .box,
-.eqex {
+.item h2,
+.eq,
+.eqex,
+.home {
     text-align: center;
 }
 
@@ -107,11 +116,6 @@ button {
     padding: 24px 48px;
 }
 
-.social {
-    padding: 64px;
-    display: inline;
-}
-
 .ico-lightbulb {
     font-size: inherit;
 }
@@ -143,6 +147,10 @@ button {
     font-size: 120px;
 }
 
+.overline {
+    text-decoration: overline;
+}
+
 
 /*Colors*/
 
@@ -170,10 +178,6 @@ button.res-cont:hover,
     color: #2ecc71;
 }
 
-.ico-gh:hover {
-    color: #4183c4;
-}
-
 .highlight {
     background-color: rgba(19, 15, 14, 1);
 }
@@ -182,8 +186,4 @@ body,
 h2,
 button {
     color: #ecf0f1;
-}
-
-.overline {
-    text-decoration: overline;
 }
