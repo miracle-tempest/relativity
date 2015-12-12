@@ -22,28 +22,56 @@
 <body>
     <!--Background Image-->
     <div id="bg"></div>
-    <div id="content" class="equations.content">
-
+    <div id="content" class="equations-content">
+        <!--TItle-->
         <div class="title">
             <h1>Equations</h1>
         </div>
 
+        <!--Content-->
         <div class="text">
-            <h2>Lorem ipsum dolor sit amet.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit earum minima, nostrum, cum maxime voluptates, in saepe pariatur ipsa dolor excepturi exercitationem, atque.</p>
-
-            <div class="hidden">
-                <button class="eq-cont">Lorem ipsum.</button>
-                <p class="ex">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe adipisci aperiam maxime maiores! Amet?</p>
-            </div>
+            <h2>Speed of Light in a vacuum</h2>
+            <p class="eq">c = 2.99792458 x 10<sup>8</sup> m / s</p>
+            <p> Note: the speed of light is the fastest speed in the universe, and thus it is a constant in Einstein's equations. As velocity approaches the speed of light, time, distance, and mass are affected. </p>
+        </div>
+        <div class="text">
+            <h2>Time Dilation</h2>
+            <p class="eq">
+                &Delta;t=&Delta;t<sub>0</sub> / &radic;<span class="overline">1-(v<sup>2</sup> / <i>c</i><sup>2</sup></span>
+            </p>
+            <p class="eqex">Dilated time interval = proper time / &radic;<span class="overline">1-(speed of clock<sup>2</sup> / speed of light<sup>2</sup>)</span></p>
+        </div>
+        <div class="text">
+            <h2>Length Contraction</h2>
+            <p class="eq">
+                L=L<sub>0</sub>&radic;<span class="overline">1-(v<sup>2</sup>/<i>c</i><sup>2</sup>)</span></p>
+            <p class="eqex">Contracted length = poper length x &radic; <span class="overline">1 - ((speed of object)<sup>2</sup>/(speed of light)<sup>2</sup></span></p>
+        </div>
+        <div class="text">
+            <h2>Rest Energy</h2>
+            <p class="eq">
+                E=m<i>c</i><sup>2</sup>
+            </p>
+            <p class="eqex">Energy = mass x speed of light<sup>2</sup></p>
         </div>
 
+        <div class="text">
+            <h2>Relativistic Energy</h2>
+            <p class="eq">E=(m<sub>0</sub><i>c</i><sup>2</sup>) / &radic; <span class="overline">1 - (v<sup>2</sup> / <i>c</i><sup>2</sup>)</span>
+            </p>
+            <p class="eqex">
+                Relativistic energy = rest mass x (speed of light)<sup>2</sup> / &radic; 1 - ((speed of object)<sup>2</sup> / (speed of light)<sup>2</sup>)
+            </p>
+        </div>
+
+        <!--Home-->
         <div class="home">
             <a href="index.html">
-                <i class="ico ico-home" id="eq-home"></i>
+                <i class="ico ico-home" id="prac-home"></i>
             </a>
         </div>
     </div>
+
     <!--jQuery Script Link-->
     <script src="application.js"></script>
 
