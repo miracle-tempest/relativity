@@ -116,7 +116,8 @@ button {
     padding: 24px 48px;
 }
 
-.ico-lightbulb {
+.ico-lightbulb,
+.ico-key {
     font-size: inherit;
 }
 
