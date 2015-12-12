@@ -54,6 +54,7 @@ button {
 
 body {
     height: 100%;
+    width: auto;
     font-family: 'Lato', sans-serif;
     background: #313131;
 }
@@ -63,7 +64,8 @@ body {
 .item h2,
 .eq,
 .eqex,
-.home {
+.home,
+.emph {
     text-align: center;
 }
 
@@ -81,7 +83,8 @@ body {
 
 .text,
 i,
-button {
+button,
+a {
     transition-duration: 0.5s;
 }
 
@@ -99,7 +102,8 @@ h1 {
 }
 
 h2,
-button {
+button,
+.emph {
     font-size: 24px;
     font-weight: 400;
 }
@@ -117,7 +121,8 @@ button {
 }
 
 .ico-lightbulb,
-.ico-key {
+.ico-key,
+.ico-leaf {
     font-size: inherit;
 }
 
@@ -157,7 +162,8 @@ button {
 
 .overview:hover,
 button.ov-cont:hover,
-#ov-home:hover {
+#ov-home:hover,
+.ov-link:hover {
     color: #3498db;
 }
 
@@ -174,9 +180,10 @@ button.prac-cont:hover,
 }
 
 .resources:hover,
-button.res-cont:hover,
-#res-home:hover {
-    color: #2ecc71;
+.res-cont:hover,
+#res-home:hover,
+.res-link:hover {
+    color: #1abc9c;
 }
 
 .highlight {
