@@ -175,7 +175,8 @@ button.eq-cont:hover,
 
 .practice:hover,
 button.prac-cont:hover,
-#prac-home:hover {
+#prac-home:hover,
+.prac-link:hover {
     color: #9b59b6;
 }
 
