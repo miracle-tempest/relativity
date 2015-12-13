@@ -59,6 +59,13 @@ body {
     background: #313131;
 }
 
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 24px;
+}
+
 .title,
 .box,
 .item h2,
