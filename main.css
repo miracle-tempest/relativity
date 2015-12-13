@@ -86,6 +86,7 @@ img {
 .text {
     background-color: rgba(19, 15, 14, 0.6);
     border-radius: 10px;
+    line-height: 28px;
 }
 
 .text,
